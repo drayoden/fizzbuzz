@@ -6,12 +6,12 @@ for i in range(1,101):
     str = i
     three = False
     if ( i % 3 == 0 ):
-        str = "fizz"
+        str = "Fizz"
         three = True
     if ( i % 5 == 0):
         if three:
-            str += "buzz"
+            str += "Buzz"
         else:
-            str = "buzz"
+            str = "Buzz"
 
     print("{}".format(str))
